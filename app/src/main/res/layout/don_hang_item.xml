@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/imgXe"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bmw520" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/llXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgXe"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMaDH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã đơn hàng" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvMaXeDH"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Mã xe" />-->
+
+            <TextView
+                android:id="@+id/tvTenXeDH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên xe" />
+
+            <TextView
+                android:id="@+id/tvTenNVDH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên nhân viên" />
+
+            <TextView
+                android:id="@+id/tvNgayMua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày mua" />
+            <TextView
+                android:id="@+id/tvGiaBanDH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá" />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/imgDelDH"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    app:srcCompat="@drawable/delete" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

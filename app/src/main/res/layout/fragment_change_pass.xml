@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ChangePassFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/rlHeader"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llLoginPanel"
+        app:layout_constraintTop_toBottomOf="@id/rlHeader"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:paddingTop="70dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_height="320dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edOldPass"
+            android:hint="Mật khẩu cũ"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <EditText
+            android:id="@+id/edPass"
+            android:hint="Mật khẩu mới"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/edComfirmPass"
+            android:hint="Xác nhận mật khẩu mới"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"/>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_item_nv"
+        android:text="Xác nhận"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/llLoginPanel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

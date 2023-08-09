@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_DonHang"
+            android:title="Quản Lý Đơn Hàng"
+            />
+
+        <item android:id="@+id/nav_LoaiXe"
+            android:title="Quản Lý Loại Xe"
+            />
+
+        <item android:id="@+id/nav_Xe"
+            android:title="Quản Lý Xe"
+            />
+
+        <item android:id="@+id/nav_NhanVien"
+            android:title="Quản Lý Nhân Viên"
+            />
+        <item android:title="Thống Kê">
+            <menu>
+                <item android:id="@+id/sub_Top"
+                    android:title="Xe Bán Chạy Nhất "
+                    />
+                <item android:id="@+id/sub_DoanhThu"
+                    android:title="Doanh Thu"
+                    />
+
+
+            </menu>
+        </item>
+        <item android:title="Người Dùng">
+            <menu>
+                <item
+                    android:id="@+id/sub_AddUser"
+                    android:visible="false"
+                    android:title="Thêm Người Dùng"/>
+                <item
+                    android:id="@+id/sub_Pass"
+                    android:title="Đổi Mật Khẩu"/>
+                <item
+                    android:id="@+id/sub_Logout"
+                    android:title="Đăng Xuất"/>
+            </menu>
+        </item>
+    </group>
+</menu>

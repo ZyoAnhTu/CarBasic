@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CarProject/app/src/main/res/drawable-v24/add.xml" value="0.1385" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable-v24/delete.xml" value="0.128" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable-v24/menu.xml" value="0.1385" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable/do_bong.xml" value="0.136" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable/khoang_cach.xml" value="0.1385" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable/menu.xml" value="0.128" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable/shape_item_nv.xml" value="0.128" />
+        <entry key="..\:/CarProject/app/src/main/res/drawable/side_nav_bar.xml" value="0.128" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/activity_drawer_view.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/activity_nhan_vien.xml" value="0.152" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/activity_splass.xml" value="0.10220994475138122" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/activity_xe.xml" value="0.12047101449275362" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/app_bar_drawer_view.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/content_drawer_view.xml" value="0.1" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/don_hang_dialog.xml" value="0.4" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/don_hang_item.xml" value="0.536" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_add_nhan_vien.xml" value="0.16" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_change_pass.xml" value="0.2" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_don_hang.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_gallery.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_home.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_loai_xe.xml" value="0.2" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_nhan_vien.xml" value="0.264" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_nhan_vien_l_v.xml" value="0.10220994475138122" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_slideshow.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_top.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/fragment_xe.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/loaixe_dialog.xml" value="0.12047101449275362" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/loaixe_item.xml" value="0.4" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/loaixe_item_spinner.xml" value="0.2" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/nav_header.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/nav_header_drawer_view.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/nhan_vien_dialog.xml" value="0.264" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/nhanvien_item.xml" value="0.264" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/nhanvien_item_spinner.xml" value="0.264" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/toolbar.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/top_item.xml" value="0.264" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/xe_dialog.xml" value="0.2" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/xe_item.xml" value="0.264" />
+        <entry key="..\:/CarProject/app/src/main/res/layout/xe_spinnner.xml" value="0.20989583333333334" />
+        <entry key="..\:/CarProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.21197916666666666" />
+        <entry key="..\:/CarProject/app/src/main/res/menu/drawer_view.xml" value="0.21197916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
